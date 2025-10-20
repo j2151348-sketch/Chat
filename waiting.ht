@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>En attente</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="waiting">
+<h1>Votre compte est en attente de validation par l'administrateur.</h1>
+<p>Vous serez redirigé vers la messagerie dès approbation.</p>
+</div>
+</body>
+</html>
