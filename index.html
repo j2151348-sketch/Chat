@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ma Messagerie</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/supabase.min.js"></script>
+</head>
+<body>
+<div id="auth-section">
+  <h1>Connexion / Inscription</h1>
+  <input type="email" id="email" placeholder="Email">
+  <input type="password" id="password" placeholder="Mot de passe">
+  <button id="btnSignup">S'inscrire</button>
+  <button id="btnLogin">Se connecter</button>
+  <p id="auth-msg"></p>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
